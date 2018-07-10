@@ -49,7 +49,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 realmModel.title = self.collectionData[index.row].title!
                 realmModel.picture_path = self.collectionData[index.row].picture_path!
                 realmModel.programTitle = self.collectionData[index.row].programTitle!
-                
+                realmModel.id = self.collectionData[index.row].id!
                 
                 
                 try! self.realm.write {
