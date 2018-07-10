@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438959E620F25785000300F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438959E520F25785000300F9 /* AppDelegate.swift */; };
+		438959E820F25785000300F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438959E720F25785000300F9 /* HomeViewController.swift */; };
+		438959EA20F25785000300F9 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438959E920F25785000300F9 /* FavoritesViewController.swift */; };
+		438959ED20F25785000300F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438959EB20F25785000300F9 /* Main.storyboard */; };
+		438959EF20F25786000300F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438959EE20F25786000300F9 /* Assets.xcassets */; };
+		438959F220F25786000300F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438959F020F25786000300F9 /* LaunchScreen.storyboard */; };
+		438959FB20F25FA3000300F9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438959FA20F25FA3000300F9 /* DataModel.swift */; };
+		43E4D71120F382E800149E7A /* programCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D70F20F382E800149E7A /* programCollectionViewCell.swift */; };
+		43E4D71220F382E800149E7A /* programCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E4D71020F382E800149E7A /* programCollectionViewCell.xib */; };
+		43E4D71520F3846B00149E7A /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D71420F3846B00149E7A /* Reusable.swift */; };
+		43E4D71720F3876100149E7A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D71620F3876100149E7A /* WebService.swift */; };
+		43E4D71920F3883500149E7A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D71820F3883500149E7A /* Result.swift */; };
+		43E4D72820F4183500149E7A /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D72720F4183500149E7A /* Collection.swift */; };
+		43E4D72A20F4574200149E7A /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D72920F4574200149E7A /* RealmDataModel.swift */; };
+		B59839E0312D5A269B55E4F5 /* Pods_Telewebion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05291560D49A7E524F64319C /* Pods_Telewebion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D51B4817861780194F7A61 /* Pods-Telewebion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telewebion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telewebion/Pods-Telewebion.release.xcconfig"; sourceTree = "<group>"; };
+		05291560D49A7E524F64319C /* Pods_Telewebion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telewebion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438959E220F25785000300F9 /* Telewebion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telewebion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438959E520F25785000300F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438959E720F25785000300F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		438959E920F25785000300F9 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		438959EC20F25785000300F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438959EE20F25786000300F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438959F120F25786000300F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438959F320F25786000300F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438959FA20F25FA3000300F9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		43E4D70F20F382E800149E7A /* programCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programCollectionViewCell.swift; sourceTree = "<group>"; };
+		43E4D71020F382E800149E7A /* programCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = programCollectionViewCell.xib; sourceTree = "<group>"; };
+		43E4D71420F3846B00149E7A /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		43E4D71620F3876100149E7A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		43E4D71820F3883500149E7A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		43E4D72720F4183500149E7A /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		43E4D72920F4574200149E7A /* RealmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		D7564793E42366382BDCE559 /* Pods-Telewebion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telewebion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telewebion/Pods-Telewebion.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438959DF20F25785000300F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59839E0312D5A269B55E4F5 /* Pods_Telewebion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438959D920F25785000300F9 = {
+			isa = PBXGroup;
+			children = (
+				438959E420F25785000300F9 /* Telewebion */,
+				438959E320F25785000300F9 /* Products */,
+				4E98033FF667F8EAAAD97F41 /* Pods */,
+				97A091B4F91E33276873CF25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		438959E320F25785000300F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438959E220F25785000300F9 /* Telewebion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438959E420F25785000300F9 /* Telewebion */ = {
+			isa = PBXGroup;
+			children = (
+				43E4D72620F4181900149E7A /* Extension */,
+				43E4D71320F3845800149E7A /* Protocol */,
+				43E4D70D20F3816200149E7A /* Service */,
+				438959F920F25F86000300F9 /* Model */,
+				43E4D70E20F3828F00149E7A /* View */,
+				438959E520F25785000300F9 /* AppDelegate.swift */,
+				438959E720F25785000300F9 /* HomeViewController.swift */,
+				438959E920F25785000300F9 /* FavoritesViewController.swift */,
+				438959EB20F25785000300F9 /* Main.storyboard */,
+				438959EE20F25786000300F9 /* Assets.xcassets */,
+				438959F020F25786000300F9 /* LaunchScreen.storyboard */,
+				438959F320F25786000300F9 /* Info.plist */,
+			);
+			path = Telewebion;
+			sourceTree = "<group>";
+		};
+		438959F920F25F86000300F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				438959FA20F25FA3000300F9 /* DataModel.swift */,
+				43E4D71820F3883500149E7A /* Result.swift */,
+				43E4D72920F4574200149E7A /* RealmDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43E4D70D20F3816200149E7A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				43E4D71620F3876100149E7A /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		43E4D70E20F3828F00149E7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43E4D70F20F382E800149E7A /* programCollectionViewCell.swift */,
+				43E4D71020F382E800149E7A /* programCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43E4D71320F3845800149E7A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				43E4D71420F3846B00149E7A /* Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		43E4D72620F4181900149E7A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				43E4D72720F4183500149E7A /* Collection.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4E98033FF667F8EAAAD97F41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7564793E42366382BDCE559 /* Pods-Telewebion.debug.xcconfig */,
+				02D51B4817861780194F7A61 /* Pods-Telewebion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97A091B4F91E33276873CF25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05291560D49A7E524F64319C /* Pods_Telewebion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438959E120F25785000300F9 /* Telewebion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438959F620F25786000300F9 /* Build configuration list for PBXNativeTarget "Telewebion" */;
+			buildPhases = (
+				97A3ABEEAF72EEA25D93E934 /* [CP] Check Pods Manifest.lock */,
+				438959DE20F25785000300F9 /* Sources */,
+				438959DF20F25785000300F9 /* Frameworks */,
+				438959E020F25785000300F9 /* Resources */,
+				61FC2680746F1C79EF4D1A03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telewebion;
+			productName = Telewebion;
+			productReference = 438959E220F25785000300F9 /* Telewebion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438959DA20F25785000300F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Barsam;
+				TargetAttributes = {
+					438959E120F25785000300F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 438959DD20F25785000300F9 /* Build configuration list for PBXProject "Telewebion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438959D920F25785000300F9;
+			productRefGroup = 438959E320F25785000300F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438959E120F25785000300F9 /* Telewebion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438959E020F25785000300F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438959F220F25786000300F9 /* LaunchScreen.storyboard in Resources */,
+				43E4D71220F382E800149E7A /* programCollectionViewCell.xib in Resources */,
+				438959EF20F25786000300F9 /* Assets.xcassets in Resources */,
+				438959ED20F25785000300F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61FC2680746F1C79EF4D1A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telewebion/Pods-Telewebion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telewebion/Pods-Telewebion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A3ABEEAF72EEA25D93E934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telewebion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438959DE20F25785000300F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E4D72820F4183500149E7A /* Collection.swift in Sources */,
+				43E4D71920F3883500149E7A /* Result.swift in Sources */,
+				438959EA20F25785000300F9 /* FavoritesViewController.swift in Sources */,
+				43E4D72A20F4574200149E7A /* RealmDataModel.swift in Sources */,
+				43E4D71720F3876100149E7A /* WebService.swift in Sources */,
+				438959E620F25785000300F9 /* AppDelegate.swift in Sources */,
+				43E4D71120F382E800149E7A /* programCollectionViewCell.swift in Sources */,
+				438959E820F25785000300F9 /* HomeViewController.swift in Sources */,
+				438959FB20F25FA3000300F9 /* DataModel.swift in Sources */,
+				43E4D71520F3846B00149E7A /* Reusable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		438959EB20F25785000300F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438959EC20F25785000300F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438959F020F25786000300F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438959F120F25786000300F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438959F420F25786000300F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		438959F520F25786000300F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438959F720F25786000300F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7564793E42366382BDCE559 /* Pods-Telewebion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BU7VMYFA8;
+				INFOPLIST_FILE = Telewebion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.bahrami.apps.Telewebion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438959F820F25786000300F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D51B4817861780194F7A61 /* Pods-Telewebion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BU7VMYFA8;
+				INFOPLIST_FILE = Telewebion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.bahrami.apps.Telewebion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438959DD20F25785000300F9 /* Build configuration list for PBXProject "Telewebion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438959F420F25786000300F9 /* Debug */,
+				438959F520F25786000300F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438959F620F25786000300F9 /* Build configuration list for PBXNativeTarget "Telewebion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438959F720F25786000300F9 /* Debug */,
+				438959F820F25786000300F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438959DA20F25785000300F9 /* Project object */;
+}
